@@ -29,7 +29,7 @@ export default function LaunchDetailPage() {
     const launchFromFavorite = app.getLaunchFromFavorite(data.launch.id)
 
     return (<>
-        <Box display="flex" alignItems="center">
+        <Box display="flex" alignItems="center" pl="20px">
             <Typography variant="h4">{data.launch.id}</Typography>
             <IconButton onClick={() => {app.onStarButton(data.launch)}}>
                 {launchFromFavorite ? <StarIcon sx={{fontSize: 30}} color="warning" /> : <StarBorderIcon sx={{fontSize: 30}}/>}              

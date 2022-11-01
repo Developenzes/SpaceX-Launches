@@ -8,7 +8,7 @@ export default function Header() {
                 <Button component={NavLink} to="/" sx={{color: "black"}}>
                     <Typography variant="h5">SpaceX Launches</Typography>
                 </Button>                
-                <Box className="nav-links" sx={{mr: 3}}>                   
+                <Box>                   
                     <Button component={NavLink} to="/">
                         Home
                     </Button>
