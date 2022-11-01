@@ -1,0 +1,40 @@
+{
+  "name": "react-spacex-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "generate": "graphql-codegen --config codegen.yml"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@material-ui/core": "^4.12.4",
+    "@mui-treasury/components": "^1.10.1",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.11",
+    "@mui/styled-engine-sc": "^5.10.6",
+    "@mui/styles": "^5.10.10",
+    "dateformat": "^5.0.3",
+    "graphql": "^16.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.2",
+    "urql": "^3.0.3"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "2.13.8",
+    "@graphql-codegen/typescript": "^2.8.0",
+    "@graphql-codegen/typescript-operations": "^2.5.5",
+    "@graphql-codegen/typescript-urql": "^3.7.2",
+    "@graphql-codegen/urql-introspection": "^2.2.1",
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "@vitejs/plugin-react": "^2.2.0",
+    "typescript": "^4.8.4",
+    "vite": "^3.2.0"
+  }
+}
