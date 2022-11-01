@@ -78,4 +78,7 @@ body {
     .details-description {
         line-height: 1.2;
     }
+    .details-data {
+        padding: 0;
+    }
 }
